@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E880B6AE1537692600387ADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E880B6AD1537692600387ADC /* UIKit.framework */; };
+		E880B6B01537692600387ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E880B6AF1537692600387ADC /* Foundation.framework */; };
+		E880B6B21537692600387ADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E880B6B11537692600387ADC /* CoreGraphics.framework */; };
+		E880B6B81537692600387ADC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E880B6B61537692600387ADC /* InfoPlist.strings */; };
+		E880B6BA1537692600387ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E880B6B91537692600387ADC /* main.m */; };
+		E880B6BE1537692600387ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E880B6BD1537692600387ADC /* AppDelegate.m */; };
+		E880B6C11537692600387ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E880B6C01537692600387ADC /* ViewController.m */; };
+		E880B6C41537692600387ADC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E880B6C21537692600387ADC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E880B6A91537692600387ADC /* PCCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E880B6AD1537692600387ADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E880B6AF1537692600387ADC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E880B6B11537692600387ADC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E880B6B51537692600387ADC /* PCCanvas-Info.plist */ = {isa = PBXFileReference; path = "PCCanvas-Info.plist"; sourceTree = "<group>"; };
+		E880B6B71537692600387ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E880B6B91537692600387ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E880B6BB1537692600387ADC /* PCCanvas-Prefix.pch */ = {isa = PBXFileReference; path = "PCCanvas-Prefix.pch"; sourceTree = "<group>"; };
+		E880B6BC1537692600387ADC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E880B6BD1537692600387ADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E880B6BF1537692600387ADC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E880B6C01537692600387ADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E880B6C31537692600387ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E880B6A61537692600387ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E880B6AE1537692600387ADC /* UIKit.framework in Frameworks */,
+				E880B6B01537692600387ADC /* Foundation.framework in Frameworks */,
+				E880B6B21537692600387ADC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E880B69E1537692600387ADC = {
+			isa = PBXGroup;
+			children = (
+				E880B6B31537692600387ADC /* PCCanvas */,
+				E880B6AC1537692600387ADC /* Frameworks */,
+				E880B6AA1537692600387ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E880B6AA1537692600387ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E880B6A91537692600387ADC /* PCCanvas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E880B6AC1537692600387ADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E880B6AD1537692600387ADC /* UIKit.framework */,
+				E880B6AF1537692600387ADC /* Foundation.framework */,
+				E880B6B11537692600387ADC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E880B6B31537692600387ADC /* PCCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				E880B6BC1537692600387ADC /* AppDelegate.h */,
+				E880B6BD1537692600387ADC /* AppDelegate.m */,
+				E880B6BF1537692600387ADC /* ViewController.h */,
+				E880B6C01537692600387ADC /* ViewController.m */,
+				E880B6C21537692600387ADC /* ViewController.xib */,
+				E880B6B41537692600387ADC /* Supporting Files */,
+			);
+			path = PCCanvas;
+			sourceTree = "<group>";
+		};
+		E880B6B41537692600387ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E880B6B51537692600387ADC /* PCCanvas-Info.plist */,
+				E880B6B61537692600387ADC /* InfoPlist.strings */,
+				E880B6B91537692600387ADC /* main.m */,
+				E880B6BB1537692600387ADC /* PCCanvas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E880B6A81537692600387ADC /* PCCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E880B6C71537692600387ADC /* Build configuration list for PBXNativeTarget "PCCanvas" */;
+			buildPhases = (
+				E880B6A51537692600387ADC /* Sources */,
+				E880B6A61537692600387ADC /* Frameworks */,
+				E880B6A71537692600387ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCCanvas;
+			productName = PCCanvas;
+			productReference = E880B6A91537692600387ADC /* PCCanvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E880B6A01537692600387ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Magnetic Bear Studios";
+			};
+			buildConfigurationList = E880B6A31537692600387ADC /* Build configuration list for PBXProject "PCCanvas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E880B69E1537692600387ADC;
+			productRefGroup = E880B6AA1537692600387ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E880B6A81537692600387ADC /* PCCanvas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E880B6A71537692600387ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E880B6B81537692600387ADC /* InfoPlist.strings in Resources */,
+				E880B6C41537692600387ADC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E880B6A51537692600387ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E880B6BA1537692600387ADC /* main.m in Sources */,
+				E880B6BE1537692600387ADC /* AppDelegate.m in Sources */,
+				E880B6C11537692600387ADC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E880B6B61537692600387ADC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E880B6B71537692600387ADC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E880B6C21537692600387ADC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E880B6C31537692600387ADC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E880B6C51537692600387ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E880B6C61537692600387ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E880B6C81537692600387ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCCanvas/PCCanvas-Prefix.pch";
+				INFOPLIST_FILE = "PCCanvas/PCCanvas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E880B6C91537692600387ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCCanvas/PCCanvas-Prefix.pch";
+				INFOPLIST_FILE = "PCCanvas/PCCanvas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E880B6A31537692600387ADC /* Build configuration list for PBXProject "PCCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E880B6C51537692600387ADC /* Debug */,
+				E880B6C61537692600387ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E880B6C71537692600387ADC /* Build configuration list for PBXNativeTarget "PCCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E880B6C81537692600387ADC /* Debug */,
+				E880B6C91537692600387ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E880B6A01537692600387ADC /* Project object */;
+}

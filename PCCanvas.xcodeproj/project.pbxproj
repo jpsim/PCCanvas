@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E81C274E153CA97D000BADAE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81C274D153CA97D000BADAE /* CoreImage.framework */; };
 		E880B6AE1537692600387ADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E880B6AD1537692600387ADC /* UIKit.framework */; };
 		E880B6B01537692600387ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E880B6AF1537692600387ADC /* Foundation.framework */; };
 		E880B6B21537692600387ADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E880B6B11537692600387ADC /* CoreGraphics.framework */; };
@@ -15,22 +16,26 @@
 		E880B6BE1537692600387ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E880B6BD1537692600387ADC /* AppDelegate.m */; };
 		E880B6C11537692600387ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E880B6C01537692600387ADC /* ViewController.m */; };
 		E880B6C41537692600387ADC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E880B6C21537692600387ADC /* ViewController.xib */; };
+		E880B6CD153769AE00387ADC /* UIImage+BBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E880B6CC153769AE00387ADC /* UIImage+BBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E81C274D153CA97D000BADAE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		E880B6A91537692600387ADC /* PCCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E880B6AD1537692600387ADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E880B6AF1537692600387ADC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E880B6B11537692600387ADC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E880B6B51537692600387ADC /* PCCanvas-Info.plist */ = {isa = PBXFileReference; path = "PCCanvas-Info.plist"; sourceTree = "<group>"; };
+		E880B6B51537692600387ADC /* PCCanvas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCCanvas-Info.plist"; sourceTree = "<group>"; };
 		E880B6B71537692600387ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E880B6B91537692600387ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E880B6BB1537692600387ADC /* PCCanvas-Prefix.pch */ = {isa = PBXFileReference; path = "PCCanvas-Prefix.pch"; sourceTree = "<group>"; };
-		E880B6BC1537692600387ADC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E880B6BB1537692600387ADC /* PCCanvas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCCanvas-Prefix.pch"; sourceTree = "<group>"; };
+		E880B6BC1537692600387ADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E880B6BD1537692600387ADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E880B6BF1537692600387ADC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E880B6BF1537692600387ADC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E880B6C01537692600387ADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E880B6C31537692600387ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E880B6CA1537693800387ADC /* UIImage+BBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BBlock.h"; sourceTree = "<group>"; };
+		E880B6CC153769AE00387ADC /* UIImage+BBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81C274E153CA97D000BADAE /* CoreImage.framework in Frameworks */,
 				E880B6AE1537692600387ADC /* UIKit.framework in Frameworks */,
 				E880B6B01537692600387ADC /* Foundation.framework in Frameworks */,
 				E880B6B21537692600387ADC /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +56,7 @@
 		E880B69E1537692600387ADC = {
 			isa = PBXGroup;
 			children = (
+				E81C274D153CA97D000BADAE /* CoreImage.framework */,
 				E880B6B31537692600387ADC /* PCCanvas */,
 				E880B6AC1537692600387ADC /* Frameworks */,
 				E880B6AA1537692600387ADC /* Products */,
@@ -77,6 +84,8 @@
 		E880B6B31537692600387ADC /* PCCanvas */ = {
 			isa = PBXGroup;
 			children = (
+				E880B6CA1537693800387ADC /* UIImage+BBlock.h */,
+				E880B6CC153769AE00387ADC /* UIImage+BBlock.m */,
 				E880B6BC1537692600387ADC /* AppDelegate.h */,
 				E880B6BD1537692600387ADC /* AppDelegate.m */,
 				E880B6BF1537692600387ADC /* ViewController.h */,
@@ -164,6 +173,7 @@
 				E880B6BA1537692600387ADC /* main.m in Sources */,
 				E880B6BE1537692600387ADC /* AppDelegate.m in Sources */,
 				E880B6C11537692600387ADC /* ViewController.m in Sources */,
+				E880B6CD153769AE00387ADC /* UIImage+BBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +251,7 @@
 				GCC_PREFIX_HEADER = "PCCanvas/PCCanvas-Prefix.pch";
 				INFOPLIST_FILE = "PCCanvas/PCCanvas-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -252,6 +263,7 @@
 				GCC_PREFIX_HEADER = "PCCanvas/PCCanvas-Prefix.pch";
 				INFOPLIST_FILE = "PCCanvas/PCCanvas-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +287,7 @@
 				E880B6C91537692600387ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
